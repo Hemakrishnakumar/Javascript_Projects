@@ -39,7 +39,7 @@ rollDice.addEventListener('click', function () {
     const diceNum = Math.trunc(Math.random() * 6 + 1);
     //display the dice according to the random dice number
     dice.classList.remove('hidden');
-    dice.src = `dice-${diceNum}.png`;
+    dice.src = `images/dice-${diceNum}.png`;
     // if dice number is 1 switch to other player
     if (diceNum === 1) {
       shiftPlayer();
